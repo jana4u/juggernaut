@@ -14,6 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "juggernaut"
   gem.require_paths = ["lib"]
   gem.version       = Juggernaut::VERSION
-  gem.add_development_dependency('eventmachine', '>=0.10.0')
-  gem.add_development_dependency('json', '>=1.1.2')
+  gem.add_runtime_dependency('eventmachine', '>=0.10.0')
+  gem.add_runtime_dependency('json', '>=1.1.2')
 end
