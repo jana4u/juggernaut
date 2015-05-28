@@ -148,6 +148,7 @@ module Juggernaut
   end
 end
 
+require 'juggernaut/version'
 require 'juggernaut/utils'
 require 'juggernaut/miscel'
 require 'juggernaut/message'
